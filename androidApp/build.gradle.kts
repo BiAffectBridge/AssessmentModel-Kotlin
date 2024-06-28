@@ -8,7 +8,7 @@ plugins {
 android {
     compileSdk = libs.versions.compileSdk.get().toInt()
     defaultConfig {
-        applicationId = "org.sagebionetworks.assessmentmodel.sampleapp"
+        applicationId = "org.biaffectbridge.assessmentmodel.sampleapp"
         minSdk = libs.versions.minSdk.get().toInt()
         targetSdk = libs.versions.targetSdk.get().toInt()
         versionCode = 1

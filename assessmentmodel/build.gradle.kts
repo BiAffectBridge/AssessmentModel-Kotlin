@@ -117,7 +117,7 @@ kotlin {
 publishing {
     repositories {
         maven {
-            url = uri("https://sagebionetworks.jfrog.io/artifactory/mobile-sdks/")
+            url = uri("https://biaffectbridge.jfrog.io/artifactory/mobile-sdks/")
             credentials {
                 username = System.getenv("artifactoryUser")
                 password = System.getenv("artifactoryPwd")
